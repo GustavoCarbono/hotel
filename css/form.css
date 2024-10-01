@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(16, 16, 16);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.fsection{
+    background-color: rgb(38, 38, 38);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 13px;
+    justify-content: center;
+}
+
+input[type=text], [type=password]{
+    padding: 5px;
+    width: 90%;
+}
+
+input[type=submit]{
+    background-color: rgb(26, 126, 4);
+    padding: 5px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+}

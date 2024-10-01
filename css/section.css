@@ -1,0 +1,69 @@
+
+body{
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    margin-top: 90px;
+    border-radius: 14px;
+    width: 166px;
+    height: 190px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms;
+}
+
+section .divR{
+    background-color: rgb(203, 3, 3);
+}
+
+section .divSr{
+    background-color: rgb(136, 0, 0);
+}
+
+section .divB{
+    background-color: rgb(0, 0, 152);
+}
+
+.section{
+    margin: auto;
+    gap: 10px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+section div .saiba{
+    margin-top: 5px;
+    margin-left: 72px;
+    font-size: small;
+    text-decoration: none;
+    color: yellow;
+}
+
+h4{
+    color: white;
+    font-size: 14px;
+    margin: 5px 2px;
+}
+
+.divB:hover, .divR:hover, .divSr:hover{
+    width: 176px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
