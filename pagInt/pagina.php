@@ -46,27 +46,16 @@ include('login/protect.php');
         </div>
     </header>
     <?php }?>
-    <section class="section">
-        <div class="divB">
-            <img src="../img/cozinha luxuosa.png" alt="">
-        <h4>Cozinha</h4>
-        <p></p>
-        </div>
-        <div class="divB">
-        <img src="../img/gym.png" alt="">
-        <h4>Ginágio</h4>
-        <p></p>
-        </div>
-        <div class="divB">
-        <img src="../img/blibioteca.png" alt="">
-        <h4>Biblioteca</h4>
-        <p></p>
-        </div>
-        <div class="divB">
-        <img src="../img/campo.png" alt="">
-        <h4>Campo de tênis</h4>
-        <p></p>
-        </div> 
+    <section class="secao2">
+        <img src="../img/" alt="">
+        <h2>class_alias</h2>
+        <p>dasd asdasdasdasdjasidj adasdas dasdasd
+            dasdasdasdasdsafadf
+            asfasfadfasfsa
+            dsadasfz
+            fdas
+        </p>
     </section>
+    <script src="../js/java.js"></script>
 </body>
 </html>

@@ -11,6 +11,7 @@ include('pagInt/login/protect.php');
     <title>Hotel</title>
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/texto.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -36,7 +37,7 @@ include('pagInt/login/protect.php');
             <i class="bi bi-building"></i>
             <ul>
                 <li><a href=""><i class="bi bi-house"></i>Home</a></li>
-                <li><a href=""><i class="bi bi-cup-hot-fill"></i>Serviços</a></li>
+                <li><a href="./pagInt/servico.php"><i class="bi bi-cup-hot-fill"></i>Serviços</a></li>
                 <li><a href=""><i class="bi bi-calendar-week"></i>Agenda</a></li>
             </ul>
             <div class="contal" id="contal">
@@ -46,7 +47,7 @@ include('pagInt/login/protect.php');
     </header>
     <?php }?>
     <section class="section">
-        <a href="./pagInt/servico.php">
+        <a href="javascript:decricao(1)">
             <div class="divR">
                 <img src="./img/quarto1.png" alt="">
                 <h4>Cozinha</h4>
