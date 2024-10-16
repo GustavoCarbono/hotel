@@ -46,8 +46,8 @@ include('pagInt/login/protect.php');
         </div>
     </header>
     <?php }?>
-    <section class="section">
-        <a href="javascript:decricao(1)">
+    <section class="section" id="sec">
+        <a href="javascript:decricao()">
             <div class="divR">
                 <img src="./img/quarto1.png" alt="">
                 <h4>Cozinha</h4>
@@ -76,7 +76,10 @@ include('pagInt/login/protect.php');
             </div>
         </a> 
     </section>
-    <script src="./js/java.js"></script>
+    <script type="module">
+        const sec = document.getElementById('sec');
+        export sec;
+    </script>
 </body>
 </html>
 

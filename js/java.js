@@ -1,5 +1,7 @@
 
 function decricao(elemento) {
+    alert('foi');
+    import SEC from "../index.php";
     switch(elemento) {
         case 1:
 
@@ -26,9 +28,4 @@ function decricao(elemento) {
 
             break
     }
-    location = "../pagInt"
-
-
-
-
 }
